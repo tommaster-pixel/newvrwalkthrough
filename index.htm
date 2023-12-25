@@ -15,11 +15,13 @@
 <meta name="description" content="THIS IS VR WALKTHROUGH OF APPARTMENT FLAT  NO:405 NYANINFRA"/>
 <meta name="theme-color" content="#FFFFFF"/>
         <script>
-    // Disable right-click on the document
-    document.addEventListener('contextmenu', function (e) {
-        e.preventDefault();
+    document.addEventListener('mousedown', function (e) {
+        if (e.button === 2) {
+            e.preventDefault();
+        }
     });
 </script>
+
     <script src="lib/tdvplayer.js?v=1703333395338"></script>
     <script type="text/javascript">
         var player;
