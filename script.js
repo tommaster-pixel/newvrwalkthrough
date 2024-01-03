@@ -1,3 +1,12 @@
+// script.js
+
+// Disable right-click context menu
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+
+// Other JavaScript code for your application goes here
+
 (function(){
     var script = {
  "borderRadius": 0,
